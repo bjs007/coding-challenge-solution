@@ -16,25 +16,25 @@ Get Input Data from User----> Concatenate them in a string separated by '-' afte
 </p>
 This section basically outlines the functionalities of the various function used while performing the task.
 
-<h6>getPlayerUrl:</h6>
+<h6>getPlayerUrl():</h6>
 
 This method the main method which return unique URL with help of below helper methods.
-<h6>getKeyInBytes:</h6>
+<h6>getKeyInBytes():</h6>
 
 This method returns an array of bytes for a String.
-<h6>getSecretKeySpec:</h6>
+<h6>getSecretKeySpec():</h6>
 
 This method returns a secret key depending on the algorithm specification.
-<h6>getInputData:</h6>
+<h6>getInputData():</h6>
 
 This method is used to concatenate input stings into a single string separated by '-'.
-<h6>isValidArgument:</h6>
+<h6>isValidArgument():</h6>
 
 This method is used to validate input argument based on either its not null and is not empty.
-<h6>getHexadecimalEncode:</h6>
+<h6>getHexadecimalEncode():</h6>
 
 This method is used to getHexadecimal value for an array of byte.
-<h6>getFinalPlayerUrl:</h6>
+<h6>getFinalPlayerUrl():</h6>
 
 This method is used prepare the final output depending on the leagueType, image style and hexadecimal code.
 <H4> To Run the Application</H4> 
